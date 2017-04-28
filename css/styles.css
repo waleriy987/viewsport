@@ -1,0 +1,73 @@
+#carousel {
+		max-width: 670px;
+		height: 70px;
+		position:relative;
+		background-color: #fff;
+		padding: 3px 0;
+		margin: 0 auto;
+	}
+	#carousel ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: block;
+	}
+	#carousel li {
+		font-size: 40px;
+		color: #999;
+		text-align: center;
+		width: 100px;
+		height: 65px;
+		padding: 0;
+		margin-left: 10px;
+		display: block;
+		float: left;
+		position:relative;
+		background-color: #ccc;
+	}
+
+	#carousel li img {
+		width:100px;
+		height:65px;
+	}
+	
+	#carousel li a {
+		width:100px;
+		height:65px;
+		position:absolute;
+		display:block;
+		z-index:2;
+		top:14px;
+		left:16px;
+		background: transparent url(../images/carousel_shine.png) no-repeat 0 0;
+		text-indent:-999em;
+	}			
+
+	#carousel .prev, #carousel .next {
+		margin-left: 10px;
+		width:15px;
+		height:21px;			
+		display:block;				
+		text-indent:-999em;
+		background: transparent url(../images/carousel_control.png) no-repeat 0 0;
+		position:absolute;
+		top: 34px;				
+	}
+
+	#carousel .prev {
+		background-position:0 0;
+		left:-23px;
+	}
+
+	#carousel .prev:hover {
+		left:-31px;
+	}
+
+	#carousel .next {
+		background-position: -18px 0;
+		right:-16px;
+	}
+
+	#carousel .next:hover {
+		right:-21px;
+	}	

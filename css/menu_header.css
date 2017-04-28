@@ -1,0 +1,64 @@
+.list>.item{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 4px;
+	color: #737373;
+	font-family: Georgia;
+	font-weight: italic;
+	padding: 0 5px;
+	border-left: 1px solid #383838;
+}
+
+.list>.item{
+	background-image: url(../images/mark.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 13px;
+}
+
+.list>.item>a{
+	font-family: Georgia;
+	word-spacing: 1px;
+	color: #737373;
+	text-decoration: none;
+}
+
+.list>.item>a:hover{
+	color: #ccc;
+}
+
+.list_info>.item>a{
+	font-family: Georgia;
+	word-spacing: 1px;
+	color: #737373;
+	text-decoration: none;
+}
+
+.list_info>.item>a:hover{
+	color: #ccc;
+}
+
+.list_info{
+	position: absolute;
+	background-color: #222222;
+	padding: 10px;
+}
+
+.list_info>.item{
+	padding: 10px;
+	border-top: 1px solid #303030;
+}
+
+.list_info>.item:hover{
+	color: #b3b3b3;
+}
+
+
+.list_info{
+	display: none;
+}
+
+.list>.item:hover
+	.list_info{
+		display: block;
+	}

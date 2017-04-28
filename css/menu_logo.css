@@ -1,0 +1,71 @@
+.sport>.item{
+	text-decoration: none;
+	display: inline-block;
+	color: #737373;
+	font-family: Georgia;
+	font-weight: italic;
+	padding: 7px;
+	border-left: 1px solid #383838;
+}
+
+.sport>.item>a{
+	font-family: Georgia;
+	word-spacing: 1px;
+	color: #737373;
+	text-decoration: none;
+}
+
+.sport>.item>a:hover{
+	color: #ccc;
+}
+
+.sport_info>.item>a{
+	font-family: Georgia;
+	word-spacing: 1px;
+	color: #737373;
+	text-decoration: none;
+}
+
+.sport_info>.item>a:hover{
+	color: #ccc;
+}
+
+.sport_info{
+	position: absolute;
+	background-color: #222222;
+	padding: 10px;
+}
+
+.sport_info>.item{
+	padding: 10px;
+	border-top: 1px solid #303030;
+}
+
+.sport_info>.item:hover{
+	color: #b3b3b3;
+}
+
+
+.sport_info{
+	display: none;
+}
+
+.sport>.item:hover
+	.sport_info{
+		display: block;
+	}
+
+.sport>.item>p{
+	font-size: 11px;
+	color: #888;
+}
+
+.sport>.item>h4>a{
+	font-size: 12px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+.sport>.item>h4>a:hover{
+	color: #6b6b6b;
+}
